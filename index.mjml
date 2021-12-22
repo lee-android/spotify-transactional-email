@@ -1,0 +1,161 @@
+<mjml>
+    <mj-head>
+        <mj-title>Spotify Receipt</mj-title>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
+
+        <mj-attributes>
+            <mj-breakpoint width="480px" />
+            <mj-text font-family="Roboto, sans-serif" color="#616467" />
+            <mj-class name="h1" padding="0" color="#555" font-weight="700" font-size="30px" />
+            <mj-class name="h2" padding="0" color="#6c6c6c" font-weight="600" font-size="14px"  />
+            <mj-class name="p"  padding="0" color="#616467" font-weight="200" font-size="14px" />
+            <mj-class name="receipt" background-color="#f7f7f7" padding="0" />
+            <mj-image padding="0" />
+            <mj-section padding="0" />
+            <mj-column padding="0" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+        <mj-container background-color="#fff">
+            <!-- logo -->
+           <mj-section padding-bottom="100px" padding-top="90px">
+               <mj-column width="500px">
+                   <mj-image src="logo.png" alt="Spotify Logo" width="150px" align="left" />
+               </mj-column>
+           </mj-section>
+            <!-- logo -->
+
+            <!-- receipt header -->
+            <mj-section>
+                <mj-column>
+                    <mj-text mj-class="h1" align="center">
+                        Your Spotify Premium receipt
+                    </mj-text>
+                    <mj-text padding-top="35px" align="center" mj-class="p">
+                        June 08, 2021
+                        <br/><br/>
+                        Order ID: 1527285686873109-1-1    
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- receipt header -->
+
+            <!-- receipt -->
+            <mj-section padding-top="25px">
+                <mj-column mj-class="receipt" width="500px" border="0.01px solid #ccc">
+                    <mj-table padding="15px 25px">
+                        <tr>
+                            <td>
+                                <mj-text style="color:#555;font-weight:600;font-size:15px; font-family: Roboto, sans-serif;">
+                                    Spotify Premium
+                                </mj-text>
+                            </td>
+                            <td align="right">
+                                <mj-text style="color:#555;font-weight:200;font-size:15px; font-family: Roboto, sans-serif;">
+                                    $0.00
+                                </mj-text>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <mj-text style="color:#555;font-weight:200;font-size:15px; font-family: Roboto, sans-serif;">
+                                    3 Months
+                                </mj-text>
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+                <mj-column mj-class="receipt" width="500px" border="0.01px solid #ccc">
+                    <mj-table padding="15px 25px">
+                        <tr>
+                            <td>
+                                <mj-text style="color:#555;font-weight:600;font-size:15px; font-family: Roboto, sans-serif;">
+                                    Total
+                                </mj-text>
+                            </td>
+                            <td align="right">
+                                <mj-text style="color:#555;font-weight:200;font-size:15px; font-family: Roboto, sans-serif;">
+                                    $0.00
+                                </mj-text>
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <!-- receipt -->
+
+            <!-- payment method -->
+            <mj-section>
+                <mj-column>
+                    <mj-text mj-class="h2" align="center" padding-top="30px">
+                        Payment Method
+                    </mj-text>
+                    <mj-text mj-class="p" align="center" padding-top="15px">
+                        Card (#### #### #### 3926)
+                    </mj-text>
+                    <mj-text mj-class="h2" align="center" padding-top="30px">
+                        Username
+                    </mj-text>
+                    <mj-text mj-class="p" align="center" padding-top="15px">
+                        andy_lee
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- payment method -->
+
+            <!-- agreement -->
+            <mj-section>
+                <mj-column width="500px">
+                    <mj-text mj-class="p" padding-top="40px" align="center" line-height="1.5">	
+                        You agree that if you do not cancel your subscription before the end of your trial period, you will automatically be charged the $9.99 subscription fee for Premium every month until you cancel. <a style="color:#15c" href="https://tinyurl.com/2p8wkpvj">Terms</a> apply. You can check your trial end date or cancel at any time on your Account <a style="color:#15c" href="https://tinyurl.com/55pk5r5e">page</a> following the instructions <a style="color:#15c"href="https://tinyurl.com/2p8w6h9m">here</a>. No partial refunds. <a style="color:#15c" href="https://tinyurl.com/5benca4t">Trial Offer Terms</a> apply.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- agreement -->
+
+            <!-- footer -->
+            <mj-section padding-top="65px">
+                <mj-column width="500" background-color="#f7f7f7">
+                    <mj-image src="/footer-logo.png" alt="Spotify Footer Logo" width="77px" align="left" padding="25px 25px"/>
+                </mj-column>
+            </mj-section>
+            <!-- footer menu -->
+            <mj-section>
+                <mj-column width="500px" background-color="#f7f7f7">
+                    <mj-divider border-width="1px" border-style="solid" border-color="#ccc" padding-bottom="7px" padding-top="1px"/>
+                    <mj-text color="#88898c" font-size="11px">
+                        Get Spotify for: <span style="font-weight:600; padding:0 7px;border-style:none solid none none;border-right-width:1px;border-right-color:#999;"><a style="text-decoration:none;color:#676767" href="https://tinyurl.com/2duxrhru">iPhone</a></span><span style="font-weight:600; padding:0 7px;border-style:none solid none none;border-right-width:1px;border-right-color:#999;"><a style="text-decoration:none;color:#676767"href="https://tinyurl.com/2p8f97xc">iPad</a></span> <span style="font-weight:600; padding:0 7px;border-style:none solid none none;border-right-width:1px;border-right-color:#999;"><a style="text-decoration:none;color:#676767"href="https://tinyurl.com/mtfck2hj">Android</a></span> <span style="font-weight:600; padding:0 7px;"><a style="text-decoration:none;color:#676767" href="https://tinyurl.com/5n77e5kp">Other</a></span>
+                    </mj-text>
+                    <mj-divider border-width="1px" border-style="solid" border-color="#ccc" padding-top="7px"/>
+                </mj-column>
+            </mj-section>
+            <!-- footer menu -->
+
+            <!-- recipient msg -->
+            <mj-section>
+                <mj-column width="500" background-color="#f7f7f7">
+                    <mj-text color="#88898c" align="left" line-height="1.5">
+                        	This message was sent to <a style="color:#15c;" href="#">someguynamedphillip@ogmail.com</a>. If you have questions or complaints, please <a style="text-decoration:none;color:#676767;font-weight:600;" href="https://tinyurl.com/24mb7d3a">contact us</a>.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- recipient msg -->
+
+            <!-- terms of use ... contact us -->
+            <mj-section>
+                <mj-column width="500" background-color="#f7f7f7" padding-top="20px">
+                    <mj-text font-size="11px">
+                        <span style="font-weight:600; padding:0 7px 0 0;border-style:none solid none none;border-right-width:1px;border-right-color:#999;">Terms of Use</span> <span style="font-weight:600; padding:0 7px;border-style:none solid none none;border-right-width:1px;border-right-color:#999;">Technical requirements</span> <span style="font-weight:600; padding:0 7px">Contact us</span>
+                    </mj-text>
+                    <mj-text font-weight="200" line-height="1.5" color="#88898c">
+                        Spotify USA Inc., 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA	
+                        Sales tax: 80-0555431
+                    </mj-text>                    
+                </mj-column>
+            </mj-section>
+            <!-- terms of use ... contact us -->
+
+            <!-- footer -->
+        </mj-container>
+    </mj-body>
+</mjml>
